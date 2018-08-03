@@ -1,9 +1,7 @@
-p {
-  font-family: Helvetica;
-  font-size: 18px;
-  font-weight: bold;
-  color: AliceBlue;
-  line-height: 1.3em;
-  text-align: left;
+h1 {
+  color: #FFF;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 100px;
   width: 100%;
 }
