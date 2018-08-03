@@ -1,18 +1,15 @@
-#banner {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
-  background-size: cover;
-  background-position: bottom center;
-  height: 700px;
-  width: 100%;
-}
-
-.pull-quote {
-  width: 350px;
+h2 {
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px dotted red;
 }
 
 #banner .content h1 {
   position: relative;
   top: 50px;
-  margin: 0 auto;
   width: 400px;
+  margin: 0 auto;
+  border: 3px solid white;
 }
