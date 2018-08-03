@@ -6,9 +6,22 @@ h1 {
   color: maroon;
 }
 
+h2.destination {
+  font-family: cursive;
+}
+
 .title {
   color: teal;
 }
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
