@@ -1,41 +1,12 @@
 p {
-  font-family: Arial;
+  font-family: Helvetica;
+  color: AliceBlue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
 }
 
-h1 {
-  color: maroon;
-}
-
-h2.destination {
-  font-family: cursive;
-}
-
-.title {
-  color: teal;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-.publish-time {
-  color: gray;
-}
-
-.cursive {
-  font-family: cursive;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-.description h5 {
-  color: teal;
-}
-h5 {
-  color: rebeccapurple !important;
-}
-h5,
-.p {
-  font-family: Georgia;
+h1,
+h2 {
+  font-family: Georgia
 }
