@@ -1,84 +1,111 @@
-body {
-  background-color: #FFF;
-  margin: 0px;
-  padding: 50px 60px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Please Participate in Our Survey!</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
-h1 {
-  color: #004E89;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 50px;
-  font-weight: 400;
-  margin: 0;
-  text-align: center;
-}
+  <header>
+    <ul>
+      <li>Question 1</li>
+      <li>Question 2</li>
+      <li>Question 3</li>
+      <li>Question 4</li>
+      <li>Question 5</li>
+    </ul>
+  </header>
 
-h2 {
-  color: #AAA;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  margin: 0;
-  text-align: center;
-  text-transform: uppercase;
-}
+  <div class="welcome">
+    <h1>Welcome to our survey!</h1>
+    <p>We're looking forward to getting your answers so we can make sure our products and services are the best they can be!</p>
+  </div>
 
-p {
-  color: #333;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 16px;
-  font-weight: 100;
-  margin: 0;
-  text-align: center;
-}
+  <div class="question">
+    <h4>Question 1</h4>
+    <h2>I like participating in physical activity such as running, swimming, or biking.</h2>
 
-.actions {
-  text-align: center;
-  margin-top: 30px;
-}
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
 
-.actions a {
-  background-color: #9DD1F1;
-  border-radius: 3px;
-  color: #004E89;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  display: inline-block;
-  margin: 10px;
-  padding: 12px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
 
-#gameboard {
-  position: relative;
-  text-align: center;
-  top: 30px;
-}
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
 
-.card {
+  <div class="question">
+    <h4>Question 2</h4>
+    <h2>I try to keep up to date with the latest fashion in active wear.</h2>
 
-  border: 2px solid #9DD1F1;
-  display: inline-block;
-  height: 200px;
-  margin-top: 4px;
-  padding: 30px auto;
-  text-align: center;
-  width: 215px;
-}
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
 
-.card:hover {
-  background-color: #004E89;
-  border-color: #004E89;
-}
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
 
-.card img {
-  padding-top: 40px;
-}
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
 
-* {
-  box-sizing: border-box;
-}
+  <div class="question">
+    <h4>Question 3</h4>
+    <h2>I purchase clothing online regularly.</h2>
+
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
+
+  <div class="question">
+    <h4>Question 4</h4>
+    <h2>I try to buy goods that are designed and/or manufactured in my home country.</h2>
+
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
+
+  <div class="question">
+    <h4>Question 5</h4>
+    <h2>I look to famous athletes when trying to choose what to wear when training.</h2>
+
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
+
+</body>
+</html>
