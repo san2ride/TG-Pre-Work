@@ -1,19 +1,11 @@
-.green {
-  background-color: #9EB599;
+body {
+  background-color: hsl(240, 100%, 80%);
 }
 
-.light {
-  background-color: #683C2C;
+.midground {
+  background-color: hsl(225, 100%, 25%);
 }
 
-.city {
-  background-color: #4C352D;
-}
-
-.vienna {
-  background-color: #352926;
-}
-
-.italian {
-  background-color: #141212;
+.foreground {
+  background-color: hsl(325, 50%, 50%);
 }
