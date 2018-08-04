@@ -1,11 +1,19 @@
-h1 {
-  color: MidnightBlue;
-  background-color: Aqua;
-  font-family: 'Covered By Your Grace', sans-serif;
-  font-size: 100px;
-  line-height: 76px;
-  margin: 0;
-  position: relative;
-  text-align: center;
-  top: 20%;
+.green {
+  background-color: #8FBC8F;
+}
+
+.light {
+  background-color: #A0522D;
+}
+
+.city {
+  background-color: #8B4513;
+}
+
+.vienna {
+  background-color: #A52A2A;
+}
+
+.italian {
+  background-color: #000000;
 }
