@@ -1,6 +1,18 @@
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  clear: left;
+}
+
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
 .answer {
   border: 1px solid #466995;
   margin: 20px;
   display: inline-block;
-  float: left;
 }
