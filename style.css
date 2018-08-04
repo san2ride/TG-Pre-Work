@@ -1,11 +1,19 @@
 .green {
-  background-color: rgb(143, 188, 143);
+  background-color: #9EB599;
 }
 
 .light {
-  background-color: rgb(160, 82, 45)D;
+  background-color: #683C2C;
 }
 
 .city {
-  background-color: rgb(139, 69, 19);
+  background-color: #4C352D;
+}
+
+.vienna {
+  background-color: #352926;
+}
+
+.italian {
+  background-color: #141212;
 }
