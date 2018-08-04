@@ -1,9 +1,11 @@
-h2 {
-  border: 1px dotted red;
-  color: red;
-  font-size: 14px;
-  line-height: 48px;
-  padding: 20px 30px;
+.pull-quote {
+  width: 350px;
+  margin: 0 auto;
+}
+
+#main {
+  padding: 40px;
   text-align: center;
-  margin: 30px 20px;
+  width: 400px;
+  margin: 0 auto;
 }
