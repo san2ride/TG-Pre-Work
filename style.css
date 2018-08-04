@@ -1,10 +1,5 @@
-.header {
-  font-family: "Arial", sans-serif;
-  font-size: 14px;
+.font-card .creator {
+  font-style: italic;
+  font-size: 20px;
   line-height: 1.25;
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  font-weight: 900;
 }
