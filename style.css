@@ -1,7 +1,3 @@
-.garamond .sample .text {
-  font-family: "Garamond", serif;
-}
-
-.helvetica .sample .text {
-  font-family: "Helvetica", sans-serif;
+.space .sample .text {
+  font-family: "Space Mono", monospace;
 }
