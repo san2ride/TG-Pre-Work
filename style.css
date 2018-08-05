@@ -1,3 +1,4 @@
-.a {
-  grid-row: 5/7;
+.b {
+  grid-column: 2 / span 6;
+  grid-row: 2 / span 3;
 }
