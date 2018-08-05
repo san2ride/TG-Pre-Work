@@ -1,7 +1,6 @@
-let favoritePhrase = true;
-
-if (!favoritePhrase) {
-  console.log("This string doesn't seem to be empty.");
+let hungerLevel = 5
+if (hungerLevel > 7) {
+  console.log("Time to eat!")
 } else {
-  console.log('This string is definitely empty.');
+  console.log("We can eat later!")
 }
