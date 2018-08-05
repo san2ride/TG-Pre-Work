@@ -1,3 +1,3 @@
-let changeMe = true
-let changeMe = false
-console.log(changeMe)
+var notDefined =
+console.log(notDefined)
+var valueless 
