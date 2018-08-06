@@ -1,13 +1,9 @@
-let Airplane = {};
+import Airplane from './airplane';
 
-Airplane.availableAirplanes = [
-{
-  name: 'AeroJet',
-  fuelCapacity: 800
- },
- {name: 'SkyJet',
-  fuelCapacity: 500
- }
-];
+function displayFuelCapacity() {
+  Airplane.availableAirplanes.forEach(function(element){
+  console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);
+  });
+}
 
-export default Airplane;
+displayFuelCapacity();
