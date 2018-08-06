@@ -1,9 +1,21 @@
-let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+let artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
 
-groceryList.shift();
+artists.forEach(function(artist) {
+  console.log(artist + ' is one of my favorite artists.');
+});
 
-groceryList.unshift('popcorn');
-console.log(groceryList);
+let numbers = [1, 2, 3, 4, 5];
 
-console.log(groceryList.slice(1, 4));
-console.log(groceryList);
+let squareNumbers = numbers.map(function(number) {
+  return number * number;
+});
+
+console.log(squareNumbers);
+
+let things = ['desk', 'chair', 5, 'backpack', 3.14, 100];
+
+let onlyNumbers = things.filter(function(thing) {
+  return typeof thing === 'number';
+});
+
+console.log(onlyNumbers);
