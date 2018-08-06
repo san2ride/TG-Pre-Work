@@ -1,7 +1,8 @@
-const Airplane = require('./1-airplane.js');
+const Airplane = {};
 
-function displayAirplane() {
-  console.log(Airplane.myAirplane);
-}
-
-displayAirplane();
+module.exports = {
+  myAirplane: "CloudJet",
+  displayAirplane: function() {
+    return this.myAirplane;
+  }
+};
