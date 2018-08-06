@@ -1,3 +1,4 @@
+// Review: Classes
 class HospitalEmployee {
   constructor(name) {
     this._name = name;
