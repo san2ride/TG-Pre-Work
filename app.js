@@ -1,3 +1,4 @@
+// Review: Iterators
 let cities = ['Nashville', 'Charlotte', 'Asheville', 'Austin', 'Boulder'];
 
 let nums = [1, 50, 75, 200, 350, 525, 1000];
