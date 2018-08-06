@@ -1,17 +1,6 @@
-class Dog {
-  constructor(name) {
+class Surgeon {
+  constructor(name, department) {
     this._name = name;
-    this._behavior = 0;
-  }
-
-  get name() {
-    return this._name;
-  }
-  get behavior() {
-    return this._behavior;
-  }
-
-  incrementBehavior() {
-    this._behavior ++;
+    this._department = department;
   }
 }
