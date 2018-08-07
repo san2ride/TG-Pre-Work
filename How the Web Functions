@@ -1,0 +1,125 @@
+
+Ok, first thing I notice is the background animation.
+<p class="callToAction wow fadeIn animated animated" data-wow-duration="7s"
+data-wow-delay=".7s" style="visibility: visible; animation-duration: 7s; animation-delay: 0.7s;">We're All About the Code</p>
+  - Animation is underneath foreground.
+  css
+  - element.style
+      visibility: visible;
+      animation-duration: 7s;
+      animation-delay: 0.7s;
+  - intro .intro-body
+      font-size: 65px;
+      letter-spacing: 1px;
+  - .fadeIn
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+  - .animated {
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+
+Techtnic Group Logo
+<img class="logo-tagline resizeHome300" src="https://s3-us-west-2.amazonaws.com/newtg/img/tgTextWhiteLogoGreenAndGray10.png">
+
+Nav Bar
+<ul class="nav navbar-nav wow fadeInLeft animated animated" data-wow-duration="1s" data-wow-delay="1.4s" style="visibility: visible; animation-duration: 1s; animation-delay: 1.4s;">
+                      <li class="hidden active">
+    services
+    clients
+    our team
+    news
+    apprenticeship (ME!)
+
+Next, We're All About the code animation. I did not realize this was an animation utill I looked further under the hood.
+<p class="callToAction wow fadeIn animated animated" data-wow-duration="7s"
+data-wow-delay=".7s" style="visibility: visible; animation-duration: 7s; animation-delay: 0.7s;">We're All About the Code</p>
+    - Appears to be the same css parameters as background animation
+    - services button
+        <a href="#services1" class="btn btn-border btn-lg page-scroll wow fadeInLeft animated animated" data-wow-duration="1s"
+        data-wow-delay="1.4s" style="visibility: visible; animation-duration: 1s; animation-delay: 1.4s;"><i class="fa fa-chevron-down"></i> SERVICES</a>
+    - contact us button
+        <a href="#contact" class="btn btn-white btn-lg page-scroll wow fadeInRight animated animated" data-wow-duration="1s"
+        data-wow-delay="1.4s" style="visibility: visible; animation-duration: 1s; animation-delay: 1.4s;"><i class="fa fa-chevron-down"></i> CONTACT US</a>
+    - WE LIVE BY THE CODE
+    <div class="col-lg-6 col-lg-offset-3">
+            <h2>WE LIVE BY THE CODE</h2>
+            <p>What’s our code? At Techtonic Group we’re all about the software and bringing ideas to life.
+            Our code includes exceptional work 100% of the time. We develop new applications, upgrade existing
+            applications and maintain software so it runs efficiently. We’re your local global company with a
+            wide-range of IT expertise in software application development and mobile applications using the
+            Agile framework. Our code is to deliver good work.</p>
+        </div>
+Scroll View leading to...
+  - TEAM INTEGRATION
+  - FULL STACK DEVELOPMENT
+  - CONSULTING
+TWEETS BY @TechtonicGroup
+  <h1 class="timeline-Header-title u-inlineBlock" data-scribe="element:title" style="font-size:30px; text-transform: uppercase;">
+  Tweets <span class="timeline-Header-byline" data-scribe="element:byline" style="font-size:28px;">by
+  <a class="customisable-highlight" href="https://twitter.com/TechtonicGroup"
+  title="‎@TechtonicGroup on Twitter">‎@TechtonicGroup</a></span></h1>
+
+CLIENTS
+<div class="row sponsor text-center col-lg-8 col-lg-offset-2">
+          <div class="client-tile col-sm-6 col-md-4">
+              <img src="https://s3-us-west-2.amazonaws.com/newtg/img/Clients/MISTY_tile.png" alt="Misty">
+              <div class="col-xs-12 client-content">
+                  <div class="col-xs-6">
+                      <h4 class="hoverHeader">Features</h4>
+                      <ul class="text-left">
+                          <li>iOS App</li>
+                          <li>RESTful Services</li>
+                      </ul>
+                  </div>
+TESTIMONIALS
+  <h2>Testimonials</h2>
+
+TEAM SECTION
+<section id="our-team" class="container-fluid text-center wow fadeIn animated animated" style="visibility: visible; animation-name: fadeIn;">
+  <div class="col-lg-10 col-lg-offset-1">
+      <h2>Meet some of our Team Members</h2>
+  </div>
+
+Carousel Wrapper
+    <div class="carousel-wrapper-outer"><div class="carousel-wrapper" style="width: 9240px; left: 0px; display: block;
+    transition: all 800ms ease; transform: translate3d(-1650px, 0px, 0px);"><div class="carousel-item" style="width: 330px;">
+    <div class="icon"><img src="https://s3-us-west-2.amazonaws.com/newtg/img/news/nyt.png" alt="NYTimes" width="504px">
+    <h3>Hot Spot for Tech Outsourcing: The United States</h3>
+
+Finally, CONTACT US
+  <h2>contact us</h2>
+  <div class="map">
+    <iframe style="pointer-events:none; width:33%; height:450px;" align="left" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCFa-JLimHNaYCHSNFmO3Jj4MZYsBIBvYw&amp;q=Techtonic+Group,Boulder+CO"></iframe>
+    <iframe style="pointer-events:none; width:33%; height:450px;" align="right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2755.4572939369327!2d-111.51492108441366!3d46.320614679120425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5344c746fa92d8f9%3A0x8b5136a556fb1ff9!2s701+B+St%2C+Townsend%2C+MT+59644!5e0!3m2!1sen!2sus!4v1497458671224"></iframe>
+    <iframe style="pointer-events:none; width:34%; height:450px;" align="left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.155715903071!2d-105.95691968447274!3d35.69778553667056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x871850108488c175%3A0x1edf337dffc9acc9!2s441+Greg+Ave%2C+Santa+Fe%2C+NM+87501!5e0!3m2!1sen!2sus!4v1513705173835"></iframe>
+    </div>
+
+● What is the server-side code’s main function?
+  "back-end scripting"
+  Most large-scale websites use server-side code to dynamically display different data when needed,
+  generally pulled out of a database stored on a server and sent to the client to be displayed via
+  some code (e.g. HTML and JavaScript). Source (https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction)
+
+● What is the client-side code’s main function?
+  Client-side storage works on similar principles as server side, but has different uses. It consists of JavaScript
+  APIs that allow you to store data on the client (on the user's machine) and then retrieve it when needed.
+  Source (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage)
+
+● How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
+    - Personalizing site preferences
+    - Persisting previous site activity
+    - Saving data and assets locally so a site will be quicker (and potentially less expensive)
+      to download, or be usable without a network connection.
+    - Saving web application generated documents locally for use offline
+
+● How many instances of the server-side code are available at any given time?
+    - server-side code can be written in a number of programming languages
+
+● What is runtime?
+    Definition:
+    Runtime is the period of time when a program is running. It begins when a program is opened (or executed)
+    and ends with the program is quit or closed.
+
+● How many instances of the the databases connected to the server application are created?
